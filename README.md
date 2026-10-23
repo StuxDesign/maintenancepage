@@ -47,6 +47,10 @@ This project uses GitHub Pages and can be automatically deployed to your desired
 
 The live version is deployed at [maintenancepage.stux.design](https://maintenancepage.stux.design).
 
+## Versioning
+
+This project uses [Date Versioning](https://datevers.ing): each release is numbered by its UTC release date as `YY.MM.DD` (for example `26.10.23`), with `-1`, `-2`… for later releases the same day. See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
+
 ## License
 
 Copyright © 2026 Stux.Group. This template is open for use and modification.
