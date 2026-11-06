@@ -2,9 +2,9 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.design/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.design/logo-dark.png"><img src="https://global.media.stux.design/logo-dark.png" height="80" alt="Stux.Design Logo"></picture>
 </p>
 
-# Contributing to Maintenance Page
+# Contributing to Stux.Design Maintenancepage
 
-This is a single-file HTML template, open for use and modification per the
+This is a small static HTML template (the main page plus its legal, changelog, sitemap and 404 pages), open for use and modification per the
 [License](README.md#license) section. This document is for anyone working on
 the template itself (not a downstream deployment).
 
@@ -49,5 +49,5 @@ This project uses [Date Versioning](https://datevers.ing). To release:
 
 ## Before committing
 
-- Open `index.html` in a browser and check it renders correctly
+- Run `./dev-server.sh` and check every page renders correctly, with the dev banner and with `--no-dev-mode`
 - Check the page at common viewport widths (mobile/tablet/desktop) since it's meant to be responsive

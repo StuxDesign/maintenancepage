@@ -5,6 +5,15 @@ All notable changes to Maintenancepage are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/).
 
+## v26.11.06
+
+### Changed
+
+- The README and CONTRIBUTING use the template's full name, **Stux.Design Maintenancepage**, as services.stux.design does.
+- `CONTRIBUTING.md` no longer calls it a single-file template (it has its legal, changelog, sitemap and 404 pages
+  too), and says to check pages through `dev-server.sh` rather than by opening `index.html`.
+- The README footer's Stuxedo icon is the light/dark one from `global.media.stuxedo.com`, not the GitHub avatar.
+
 ## v26.10.26
 
 ### Security
