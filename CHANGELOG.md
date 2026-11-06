@@ -5,6 +5,13 @@ All notable changes to Maintenancepage are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/).
 
+## v26.11.06-1
+
+### Fixed
+
+- CI passes again: `.htmlvalidate.json` relaxes the `valid-id` rule (as Stux.Design Servicepage does), so the
+  Discord preview's `id="discord:component-embed"` no longer fails the HTML check. It had failed on every push since v26.10.23.
+
 ## v26.11.06
 
 ### Changed
