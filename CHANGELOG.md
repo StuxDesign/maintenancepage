@@ -5,6 +5,13 @@ All notable changes to Maintenancepage are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/).
 
+## v26.11.13
+
+### Changed
+
+- Stux Group Ltd's registered office is now **124 City Road, London, EC1V 2NX, England** (it was 82a James Carter Road, Mildenhall, England, IP28 7DE), in the Imprint. The company number
+  (13160574) and "registered in England and Wales" are unchanged.
+
 ## v26.11.06-2
 
 ### Changed
