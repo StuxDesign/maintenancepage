@@ -11,8 +11,10 @@ the template itself (not a downstream deployment).
 ## Local setup
 
 There's no build step or dependencies — just clone the repo and run
-`./dev-server.sh [port] [--no-dev-mode]` (or `dev-server.bat` on Windows), then open
-`http://127.0.0.1:8000`. PHP (7.4, like the other Stux projects) is only the local web
+`./dev-server.sh [port] [--no-dev-mode] [--lan]` (or `dev-server.bat` on Windows), then open
+`http://127.0.0.1:8000`. `--lan` listens on all interfaces instead of 127.0.0.1 only, so a phone or tablet on the
+same network can open it, and prints the addresses to use (usually the 192.168.x.x one; allow PHP
+through the firewall if asked). PHP (7.4, like the other Stux projects) is only the local web
 server: `.github/dev-router.php` serves the folder the way GitHub Pages does and, with
 DEV_MODE on (the default), answers `assets/dev-mode.js` with `window.SITE_DEV_MODE = true`
 so the dev banner shows. Production serves the committed `assets/dev-mode.js`, which

@@ -5,6 +5,20 @@ All notable changes to Maintenancepage are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/).
 
+## v26.11.15
+
+### Added
+
+- `--lan` for `dev-server.sh`/`.bat`: the server listens on all interfaces instead of 127.0.0.1 only, so phones and
+  tablets on the local network can open it, and prints this machine's IPv4 addresses to use. Without it nothing
+  changes. The `.bat` now rejects unknown options with the usage line instead of taking them as the port, like the
+  `.sh` already did.
+
+### Fixed
+
+- `dev-server.bat` reads the PHP version again. The quoted PHP path broke the version check, so it printed "PHP )"
+  and warned that PHP 7.4 was missing even when it was being used.
+
 ## v26.11.13-1
 
 ### Changed

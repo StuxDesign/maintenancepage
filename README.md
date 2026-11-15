@@ -31,7 +31,7 @@ grid, rulers along the edges, a selection box around the headline's highlighted 
 
 2. Run `./dev-server.sh` (or `dev-server.bat` on Windows) and open `http://127.0.0.1:8000`.
    DEV_MODE is on by default, so the dev banner shows; pass `--no-dev-mode` to see the page as
-   production does
+   production does, and `--lan` to open it from a phone or tablet on your network (it prints the addresses to use)
 
 ## Customization
 
