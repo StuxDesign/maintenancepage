@@ -55,7 +55,7 @@ Every page lists `favicon.ico`, `apple-touch-icon.png` and `site.webmanifest` in
 
 This project uses [Date Versioning](https://datevers.ing): each release is numbered by its UTC release date as `YY.MM.DD` (for example `26.10.23`), with `-1`, `-2`… for later releases the same day. See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
 
-Work happens on the `test` branch. Changes reach `main` only through a pull request from `test`, which needs CI to pass and is reviewed and merged by Leo. Release commits and tags are made on `test` (`git push origin test --tags`) and go live when the pull request is merged.
+Work and releases happen on the `test` branch. Changes reach `staging` and then `main` (live) only through pull requests, `test` → `staging` → `main`, which need CI to pass and are reviewed and merged by Leo. Release commits and tags are made on `test` (`git push origin test --tags`); `commit.sh` / `commit.bat` refuse to run on `staging` or `main`. See [CONTRIBUTING.md](CONTRIBUTING.md#branches-and-going-live).
 
 ## License
 
